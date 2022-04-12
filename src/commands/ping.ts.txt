@@ -1,0 +1,12 @@
+import type { CommandInteraction } from "discord.js";
+import { Message } from "discord.js";
+import { Discord, Slash } from "discordx";
+import { client } from "../main";
+
+@Discord()
+export class Ping {
+    @Slash()
+    Ping(interaction: CommandInteraction, message: Message): void {
+        interaction.reply(`🏓Pong! At ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`)
+    }
+}
