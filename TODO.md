@@ -2,9 +2,12 @@
 
 ## Tasks
 
-[ ] Make the ping command work
-[ ] Make a bulk delete command
-[ ] Make a help command
-[ ] Add a license
-[ ] Make a read me
-[ ] Idk
+- [ ] Make the ping command work
+- [ ] Make a bulk delete command
+- [ ] Idk
+
+## Completed
+
+- [X] Add a license
+- [X] Make a read me
+- [X] Make a help command
