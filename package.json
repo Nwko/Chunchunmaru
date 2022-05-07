@@ -12,7 +12,7 @@
     "serve": "node build/main.js",
     "start": "nodemon --exec node --loader ts-node/esm/transpile-only src/main.ts"
   },
-  "author": "Alexander",
+  "author": "Alexander Nom Nom#1622",
   "license": "MIT",
   "dependencies": {
     "@discordx/importer": "^1.1.2",
